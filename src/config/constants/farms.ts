@@ -5,7 +5,7 @@ const farms: FarmConfig[] = [
   {
     pid: 0,
     risk: 5,
-    lpSymbol: 'DOLLARS-BUSD LP V2',
+    lpSymbol: 'DOLLARS-BUSD LP',
     lpAddresses: {
       97: '',
       56: '0xDbc3A1c042498867deA6c59A19215c2d59555A5a',
@@ -21,7 +21,7 @@ const farms: FarmConfig[] = [
   {
     pid: 1,
     risk: 5,
-    lpSymbol: 'DOLLARS-BNB LP V2',
+    lpSymbol: 'DOLLARS-BNB LP',
     lpAddresses: {
       97: '',
       56: '0x51A0EaB0F71874ce9415f24D40284579Ce9242a3',
@@ -37,7 +37,7 @@ const farms: FarmConfig[] = [
   {
     pid: 2,
     risk: 3,
-    lpSymbol: 'BNB-BUSD LP V2',
+    lpSymbol: 'BNB-BUSD LP',
     lpAddresses: {
       97: '',
       56: '0x58F876857a02D6762E0101bb5C46A8c1ED44Dc16',
@@ -53,7 +53,7 @@ const farms: FarmConfig[] = [
   {
     pid: 3,
     risk: 1,
-    lpSymbol: 'USDT-BUSD LP V2',
+    lpSymbol: 'USDT-BUSD LP',
     lpAddresses: {
       97: '',
       56: '0x7EFaEf62fDdCCa950418312c6C91Aef321375A00',
@@ -69,7 +69,7 @@ const farms: FarmConfig[] = [
   {
     pid: 4,
     risk: 2,
-    lpSymbol: 'BTCB-BNB LP V2',
+    lpSymbol: 'BTCB-BNB LP',
     lpAddresses: {
       97: '',
       56: '0x61EB789d75A95CAa3fF50ed7E47b96c132fEc082', // BTCB-BNB LP
@@ -85,7 +85,7 @@ const farms: FarmConfig[] = [
   {
     pid: 5,
     risk: 2,
-    lpSymbol: 'ETH-BNB LP V2',
+    lpSymbol: 'ETH-BNB LP',
     lpAddresses: {
       97: '',
       56: '0x74E4716E431f45807DCF19f284c7aA99F18a4fbc',
@@ -101,7 +101,7 @@ const farms: FarmConfig[] = [
   {
     pid: 6,
     risk: 1,
-    lpSymbol: 'DAI-BUSD LP V2',
+    lpSymbol: 'DAI-BUSD LP',
     lpAddresses: {
       97: '',
       56: '0x66FDB2eCCfB58cF098eaa419e5EfDe841368e489',
@@ -117,7 +117,7 @@ const farms: FarmConfig[] = [
   {
     pid: 7,
     risk: 1,
-    lpSymbol: 'USDC-BUSD LP V2',
+    lpSymbol: 'USDC-BUSD LP',
     lpAddresses: {
       97: '',
       56: '0x2354ef4DF11afacb85a5C7f98B624072ECcddbB1',
@@ -133,7 +133,7 @@ const farms: FarmConfig[] = [
   {
     pid: 8,
     risk: 3,
-    lpSymbol: 'DOT-BNB LP V2',
+    lpSymbol: 'DOT-BNB LP',
     lpAddresses: {
       97: '',
       56: '0xDd5bAd8f8b360d76d12FdA230F8BAF42fe0022CF',
@@ -150,7 +150,7 @@ const farms: FarmConfig[] = [
   {
     pid: 9,
     risk: 3,
-    lpSymbol: 'CAKE-BNB LP V2',
+    lpSymbol: 'CAKE-BNB LP',
     lpAddresses: {
       97: '',
       56: '0x0eD7e52944161450477ee417DE9Cd3a859b14fD0',
@@ -167,7 +167,7 @@ const farms: FarmConfig[] = [
   {
     pid: 10,
     risk: 3,
-    lpSymbol: 'ADA-BNB LP V2',
+    lpSymbol: 'ADA-BNB LP',
     lpAddresses: {
       97: '',
       56: '0x28415ff2C35b65B9E5c7de82126b4015ab9d031F',

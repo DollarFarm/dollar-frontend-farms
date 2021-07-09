@@ -2,7 +2,9 @@ import React, { useEffect, Suspense, lazy } from 'react'
 import { BrowserRouter as Router, Redirect, Route, Switch } from 'react-router-dom'
 import { useWallet } from '@binance-chain/bsc-use-wallet'
 import { ResetCSS } from '@pancakeswap-libs/uikit'
+import Page from 'components/layout/Page'
 import BigNumber from 'bignumber.js'
+import { QueryParamProvider } from 'use-query-params';
 import { useFetchPublicData } from 'state/hooks'
 import GlobalStyle from './style/Global'
 import Menu from './components/Menu'
@@ -19,6 +21,7 @@ const Farms = lazy(() => import('./views/Farms'))
 const NotFound = lazy(() => import('./views/NotFound'))
 const Presale = lazy(() => import('./views/Presale'))
 // const Nft = lazy(() => import('./views/Nft'))
+const Referral = lazy(() => import('./views/Referral'))
 const Buyback = lazy(() => import('./views/Buyback'))
 
 // This config is required for number formating
@@ -39,6 +42,7 @@ const App: React.FC = () => {
 
   return (
     <Router>
+      <QueryParamProvider ReactRouterRoute={Route}>
       <ResetCSS />
       <GlobalStyle />
       <Menu>
@@ -58,6 +62,9 @@ const App: React.FC = () => {
             </Route>
             <Route path="/buyback">
               <Buyback />
+            </Route>
+            <Route path="/referral">
+              <Referral />
             </Route>
             {/* <Route path="/pools"> */}
             {/*  <Pools /> */}
@@ -84,6 +91,7 @@ const App: React.FC = () => {
         </Suspense>
       </Menu>
       <NftGlobalNotification />
+      </QueryParamProvider>
     </Router>
   )
 }

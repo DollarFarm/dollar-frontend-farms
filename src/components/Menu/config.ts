@@ -36,8 +36,13 @@ const config: MenuEntry[] = [
     href: '/nests',
   },
   {
+    label: 'Dollars Network (Referral)',
+    icon: 'GroupsIcon',
+    href: '/referral',
+  },
+  {
     label: 'Buyback Protocol',
-    icon: 'PoolIcon',
+    icon: 'NftIcon',
     href: '/buyback',
   },
   // {
