@@ -12,6 +12,7 @@ import { useFarms, usePriceCakeBusd } from '../../../state/hooks'
 const StyledCakeStats = styled(Card)`
   margin-left: auto;
   margin-right: auto;
+  border-radius: 8px;
 `
 
 const Row = styled.div`
@@ -41,7 +42,7 @@ const CakeStats = () => {
     <StyledCakeStats>
       <CardBody>
         <Heading size="xl" mb="24px">
-          {TranslateString(534, 'Egg Stats')}
+          {TranslateString(534, 'DOLLARS Stats')}
         </Heading>
         <Row>
           <Text fontSize="14px">{TranslateString(10005, 'Market Cap')}</Text>
@@ -60,7 +61,7 @@ const CakeStats = () => {
           {cakeSupply && <CardValue fontSize="14px" value={cakeSupply} decimals={0} />}
         </Row>
         <Row>
-          <Text fontSize="14px">{TranslateString(540, 'New EGG/block')}</Text>
+          <Text fontSize="14px">{TranslateString(540, 'New DOLLARS/block')}</Text>
           <Text bold fontSize="14px">{eggPerBlock}</Text>
         </Row>
       </CardBody>

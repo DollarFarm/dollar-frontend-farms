@@ -21,14 +21,24 @@ const config: MenuEntry[] = [
     ],
   },
   {
+    label: 'Presale',
+    icon: 'TicketIcon',
+    href: '/presale',
+  },
+  {
     label: 'Farms',
     icon: 'FarmIcon',
     href: '/farms',
   },
   {
-    label: 'Nests',
+    label: 'Pools',
     icon: 'PoolIcon',
     href: '/nests',
+  },
+  {
+    label: 'Buyback Protocol',
+    icon: 'PoolIcon',
+    href: '/buyback',
   },
   // {
   //   label: 'Pools',

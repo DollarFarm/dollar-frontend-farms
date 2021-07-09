@@ -10,6 +10,7 @@ const StyledNotFound = styled.div`
   flex-direction: column;
   height: calc(100vh - 64px);
   justify-content: center;
+  border-radius: 8px;
 `
 
 const NotFound = () => {

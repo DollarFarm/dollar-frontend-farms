@@ -27,4 +27,8 @@ export default {
     56: '0xe9e7cea3dedca5984780bafc599bd69add087d56',
     97: '',
   },
+  presale: {
+    56: '0x1F97ccd7f329Aca4D458DF6DCb8712E0cd651574',
+    97: '',
+  }
 }

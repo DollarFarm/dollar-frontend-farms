@@ -20,6 +20,8 @@ const StyledFarmStakingCard = styled(Card)`
   background-repeat: no-repeat;
   background-position: top right;
   min-height: 376px;
+  background-size: 65% 80%;
+  border-radius: 8px;
 `
 
 const Block = styled.div`
@@ -71,14 +73,14 @@ const FarmedStakingCard = () => {
         <Heading size="xl" mb="24px">
           {TranslateString(542, 'Farms & Staking')}
         </Heading>
-        <CardImage src="/images/egg/2.png" alt="cake logo" width={64} height={64} />
+        <CardImage src="/images/egg/2.png" alt="DOLLARS logo" width={64} height={64} />
         <Block>
-          <Label>{TranslateString(544, 'EGG to Harvest')}</Label>
+          <Label>{TranslateString(544, 'DOLLARS to Harvest')}</Label>
           <CakeHarvestBalance earningsSum={earningsSum}/>
           <Label>~${(eggPrice * earningsSum).toFixed(2)}</Label>
         </Block>
         <Block>
-          <Label>{TranslateString(546, 'EGG in Wallet')}</Label>
+          <Label>{TranslateString(546, 'DOLLARS in Wallet')}</Label>
           <CakeWalletBalance cakeBalance={cakeBalance} />
           <Label>~${(eggPrice * cakeBalance).toFixed(2)}</Label>
         </Block>
@@ -91,7 +93,7 @@ const FarmedStakingCard = () => {
               fullWidth
             >
               {pendingTx
-                ? TranslateString(548, 'Collecting EGG')
+                ? TranslateString(548, 'Collecting DOLLARS')
                 : TranslateString(999, `Harvest all (${balancesWithValue.length})`)}
             </Button>
           ) : (
