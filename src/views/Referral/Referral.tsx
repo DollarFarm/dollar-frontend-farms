@@ -15,6 +15,10 @@ const Con = styled.div`
     padding: 40px;
 `
 
+const Carde = styled(CardHeader)`
+    background-color: #31db9a;
+`
+
 const Images = styled.img`
   background-image: url('/images/egg/referralHeader.png');
   background-size: cover;
@@ -51,9 +55,9 @@ const Referral: React.FC = () => {
             <Con>
                 <Images />
                 <StyledCard>
-                    <CardHeader>
+                    <Carde>
                         <Heading size="md">Invite your Friends and Earn additional 5% of your friends earnings!</Heading>
-                    </CardHeader>
+                    </Carde>
                     <CardBody>
                         <Actions>
                             {account ? (

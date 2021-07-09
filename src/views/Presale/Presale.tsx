@@ -179,7 +179,7 @@ const Presale: React.FC = () => {
 
     const [countdownDate, setCountdownDate] = useState(1624892400000)
 
-    const [countdownEnd, setCountdownEnd] = useState(1625281200000)
+    const [countdownEnd, setCountdownEnd] = useState(1626620400000)
 
     const CountdownTimeEnd = ({ days, hours, minutes, seconds, completed }) => {
         return (

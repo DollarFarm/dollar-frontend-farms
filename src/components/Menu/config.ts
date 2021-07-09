@@ -7,6 +7,11 @@ const config: MenuEntry[] = [
     href: '/',
   },
   {
+    label: 'Presale',
+    icon: 'TicketIcon',
+    href: '/presale',
+  },
+  {
     label: 'Trade',
     icon: 'TradeIcon',
     items: [
@@ -20,11 +25,7 @@ const config: MenuEntry[] = [
       },
     ],
   },
-  {
-    label: 'Presale',
-    icon: 'TicketIcon',
-    href: '/presale',
-  },
+
   {
     label: 'Farms',
     icon: 'FarmIcon',
@@ -36,15 +37,16 @@ const config: MenuEntry[] = [
     href: '/nests',
   },
   {
+    label: 'Buyback Protocol',
+    icon: 'BondsIcon',
+    href: '/buyback',
+  },
+  {
     label: 'Dollars Network (Referral)',
     icon: 'GroupsIcon',
     href: '/referral',
   },
-  {
-    label: 'Buyback Protocol',
-    icon: 'NftIcon',
-    href: '/buyback',
-  },
+
   // {
   //   label: 'Pools',
   //   icon: 'PoolIcon',
@@ -66,21 +68,78 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'PancakeSwap',
-        href: 'https://pancakeswap.info/token/0xF952Fc3ca7325Cc27D15885d37117676d25BfdA6',
+        href: 'https://pancakeswap.info/token/',
       },
       {
-        label: 'CoinGecko',
-        href: 'https://www.coingecko.com/en/coins/goose-finance',
+        label: 'Poocoin',
+        href: '/',
       },
       {
-        label: 'CoinMarketCap',
-        href: 'https://coinmarketcap.com/currencies/goose-finance/',
+        label: 'DexGuru',
+        href: '/',
       },
       {
-        label: 'AstroTools',
-        href: 'https://app.astrotools.io/pancake-pair-explorer/0x19e7cbecdd23a16dfa5573df54d98f7caae03019',
+        label: 'DexTool',
+        href: '/',
       },
     ],
+  },
+  {
+    label: 'Listing',
+    icon: 'VaultsIcon',
+    items: [
+      {
+        label: 'Rug Doc Review (Pending)',
+        href: '/',
+      },
+      {
+        label: 'DappRadar (Pending)',
+        href: '/',
+      },
+      {
+        label: 'CoinHunt (Pending)',
+        href: '/',
+      },
+      {
+        label: 'CoinGecko (Pending)',
+        href: '/',
+      },
+      {
+        label: 'CoinMarket Cap (Pending)',
+        href: '/',
+      },
+    ],
+  },
+  {
+    label: 'Features',
+    icon: 'NftIcon',
+    items: [
+      {
+        label: 'Buyback Protocol',
+        href: 'https://dollarfarmbsc.gitbook.io/dollar-farm-defi/features/usddollar-buyback-pools',
+      },
+      {
+        label: 'Auto Liquidity and Burn',
+        href: 'https://dollarfarmbsc.gitbook.io/dollar-farm-defi/features/tax',
+      },
+      {
+        label: 'Capped Supply',
+        href: 'https://dollarfarmbsc.gitbook.io/dollar-farm-defi/features/supply-shortage',
+      },
+      {
+        label: 'Anti Whale Mechanism',
+        href: 'https://dollarfarmbsc.gitbook.io/dollar-farm-defi/features/dump-prevention-mechanism-anti-whale',
+      },
+      {
+        label: 'Referral Network',
+        href: 'https://dollarfarmbsc.gitbook.io/dollar-farm-defi/features/referral',
+      },
+    ],
+  },
+  {
+    label: 'Partnerships/IFO',
+    icon: 'HandshakeIcon',
+    href: '/',
   },
   {
     label: 'More',
@@ -88,33 +147,20 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Github',
-        href: 'https://github.com/goosedefi/',
+        href: 'https://github.com/DollarFarm/dollarfarm-contracts',
       },
       {
         label: 'Docs',
-        href: 'https://goosedefi.gitbook.io/goose-finance/',
+        href: 'https://dollarfarmbsc.gitbook.io/dollar-farm-defi/',
       },
       {
         label: 'Blog',
-        href: 'https://goosefinance.medium.com/',
+        href: 'https://medium.com/@dollarfarmbsc',
       },
     ],
   },
-  {
-    label: 'Partnerships/IFO',
-    icon: 'GooseIcon',
-    href: 'https://docs.google.com/forms/d/e/1FAIpQLSe7ycrw8Dq4C5Vjc9WNlRtTxEhFDB1Ny6jlAByZ2Y6qBo7SKg/viewform?usp=sf_link',
-  },
-  {
-    label: 'Audit by Hacken',
-    icon: 'AuditIcon',
-    href: 'https://www.goosedefi.com/files/hackenAudit.pdf',
-  },
-  {
-    label: 'Audit by CertiK',
-    icon: 'AuditIcon',
-    href: 'https://certik.org/projects/goose-finance',
-  },
+
+
 ]
 
 export default config
