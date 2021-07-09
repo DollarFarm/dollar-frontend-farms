@@ -63,6 +63,11 @@ const config: MenuEntry[] = [
   //   href: '/nft',
   // },
   {
+    label: 'Countdown to Farms',
+    icon: 'MoonIcon',
+    href: 'https://bscscan.com/block/countdown/9296359',
+  },
+  {
     label: 'Info',
     icon: 'InfoIcon',
     items: [
