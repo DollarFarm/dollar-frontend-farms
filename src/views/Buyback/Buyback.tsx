@@ -266,14 +266,14 @@ const Presale: React.FC = () => {
                             <Text fontSize="14px" >{TranslateString(0, 'Buyback Price per $DOLLARS')}</Text>
                             <Text fontSize="14px" >$10 </Text>
                         </Row>
-                        <Row>
+                        {/* <Row>
                             <Text fontSize="14px" >{TranslateString(0, 'Total $DOLLARS Locked')}</Text>
                             <Text fontSize="14px" >${(500000- getBalanceNumber(presale.tokensLeft)).toPrecision(6)} </Text>
                         </Row>
                         <Row>
                             <Text fontSize="14px" >{TranslateString(0, '$DOLLARS Left for Participation')}</Text>
                             <Text fontSize="14px" >${getBalanceNumber(presale.tokensLeft).toPrecision(6)} </Text>
-                        </Row>
+                        </Row> */}
                         <BuyCard account={account} ethereum={ethereum} allowance={presale.userAllowance} busdBalance={presale.busdBalance} tokensUnclaimed={presale.tokensUnclaimed} tokenBalance={presale.cakeBalance} tokensLeft={presale.tokensLeft} />
                         </CardBody>
                     </StyledCard>

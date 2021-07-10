@@ -17,11 +17,11 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Exchange',
-        href: 'https://exchange.goosedefi.com/',
+        href: 'https://exchange.pancakeswap.finance/#/swap/0xEd403fF0C8CA1CC45bc0C961604DfFfc3c7e5F54',
       },
       {
         label: 'Liquidity',
-        href: 'https://exchange.goosedefi.com/#/pool',
+        href: 'https://exchange.pancakeswap.finance/#/pool/0xEd403fF0C8CA1CC45bc0C961604DfFfc3c7e5F54',
       },
     ],
   },

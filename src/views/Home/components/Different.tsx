@@ -95,7 +95,7 @@ const Different = () => {
               <ActionsButtonWrapper>
 
       <BuyWrapper style={{ textAlign: 'center' }}>
-        <Link external href="/presale">
+        <Link external href="/buyback">
           <Button variant="primary">
             {TranslateString(0, 'Join our Buyback Protocol')}&nbsp;
             <ButtonIcon src="/images/logo.png" alt="dollars logo" />

@@ -9,7 +9,7 @@ const busdContract = new web3.eth.Contract(busdABI as unknown as AbiItem, getBus
 
 const fetchTokensLeft = async () => {
     const busdCollected = await busdContract.methods.balanceOf(getPresaleAddress()).call()
-    const initialTokens = new BigNumber(200000).multipliedBy(new BigNumber(10).pow(18))
+    const initialTokens = new BigNumber(500000).multipliedBy(new BigNumber(10).pow(18))
     return initialTokens.minus(new BigNumber(busdCollected))
 }
 

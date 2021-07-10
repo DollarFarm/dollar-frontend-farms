@@ -56,7 +56,7 @@ const Referral: React.FC = () => {
                 <Images />
                 <StyledCard>
                     <Carde>
-                        <Heading size="md">Invite your Friends and Earn additional 5% of your friends earnings!</Heading>
+                        <Heading color="#000000" size="md">Invite your Friends and Earn additional 5% of your friends earnings!</Heading>
                     </Carde>
                     <CardBody>
                         <Actions>

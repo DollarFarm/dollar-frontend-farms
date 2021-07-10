@@ -217,7 +217,7 @@ const Presale = () => {
         <ActionsButtonWrapper>
 
           <BuyWrapper style={{ textAlign: 'center' }}>
-            <Link external href="https://dollarfarmbsc.com/presale">
+            <Link external href="/presale">
               <Button variant="primary">
                 {TranslateString(0, 'Join Our Presale')}&nbsp;
                 <ButtonIcon src="/images/logo.png" alt="dollar logo" />

@@ -43,8 +43,8 @@ const BuyModal: React.FC<BuyModalProps> = ({ max, tokenName = "", onConfirm, onD
         else if (parseInt(val)/10 + getBalanceNumber(tokenBalance)/10 + getBalanceNumber(tokensUnclaimed) > 2000) {
             error = "You have hit the max cap of 2000 $DOLLARS TOKEN"
         }
-        else if (parseInt(val) < 20) {
-            error = "Minimum buy is 20 BUSD!"
+        else if (parseInt(val) < 30) {
+            error = "Minimum buy is 30 BUSD!"
         }
         return error
     }
@@ -64,7 +64,7 @@ const BuyModal: React.FC<BuyModalProps> = ({ max, tokenName = "", onConfirm, onD
                     {TranslateString(462, 'Cancel')}
                 </Button>
                 <Button
-                    disabled={parseInt(val)/10 > getBalanceNumber(tokensLeft) || parseInt(val)/10 + getBalanceNumber(tokenBalance)/10 + getBalanceNumber(tokensUnclaimed) > 2000 || parseInt(val) < 20 || pendingTx}
+                    disabled={parseInt(val)/10 > getBalanceNumber(tokensLeft) || parseInt(val)/10 + getBalanceNumber(tokenBalance)/10 + getBalanceNumber(tokensUnclaimed) > 2000 || parseInt(val) < 30 || pendingTx}
                     onClick={async () => {
                         setPendingTx(true)
                         await onConfirm(val)
