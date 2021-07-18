@@ -264,7 +264,7 @@ const Presale: React.FC = () => {
                             <Text fontSize="14px" >{TranslateString(0, 'Minimum Buy')}</Text>
                             <Text fontSize="14px" >$30 (3 $DOLLARS) </Text>
                         </Row>
-
+{/* 
                         <Row>
                             <Text fontSize="14px" >{TranslateString(0, 'Presale Raised')}</Text>
                             <Text fontSize="14px" >${(500000- getBalanceNumber(presale.tokensLeft)).toPrecision(6)} </Text>
@@ -272,7 +272,7 @@ const Presale: React.FC = () => {
                         <Row>
                             <Text fontSize="14px" >{TranslateString(0, 'Amount Left for Presale')}</Text>
                             <Text fontSize="14px" >${getBalanceNumber(presale.tokensLeft).toPrecision(6)} </Text>
-                        </Row>
+                        </Row> */}
                         </CardBody>
                     </StyledCard>
                     <StyledCard className={styles.card}>

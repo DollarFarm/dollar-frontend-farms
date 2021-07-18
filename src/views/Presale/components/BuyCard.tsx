@@ -76,6 +76,7 @@ const BuyCard: React.FC<BuyCardProps> = ({ account, ethereum, allowance, busdBal
         <div>
             <Flex className={styles.cardContainer} justifyContent="space-between" style={{ marginTop: '32px' }}>
                 <StyledCard className={styles.card}>
+                    <Text>Presale has ended! Please buy from PancakeSwap</Text>
                     <CardBody><Heading size="xl" mb="18px" >Buy $DOLLARS Token</Heading>
                     {!account ? <UnlockButton mt="8px" fullWidth /> : renderApprovalOrBuyButton()}</CardBody>
                     {/* <CardFooter></CardFooter> */}
@@ -84,7 +85,7 @@ const BuyCard: React.FC<BuyCardProps> = ({ account, ethereum, allowance, busdBal
                     <CardBody>
                     
                     <Heading size="xl" mb="18px" >Claim $DOLLARS Token</Heading>
-                    {!account ? <UnlockButton mt="8px" disabled fullWidth /> : renderClaimButton()}</CardBody>
+                    {!account ? <UnlockButton mt="8px" fullWidth /> : renderClaimButton()}</CardBody>
                     
                 </StyledCard>
             </Flex>
